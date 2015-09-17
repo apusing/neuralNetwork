@@ -1,0 +1,14 @@
+	✔	Find out the complexity formula for Neural network @done (15-09-17)
+	✔	Generate data set accorgingly @done (15-09-17)
+	☐	Testing, get activation value using theta and check the output for max value
+	☐	Check against the actual value
+	☐	Calculate the training accuracy
+	☐	Create functions for rolling and unrolling parameters
+	☐	How to test if it is working or not
+		☐	Check the J values with randomized weights and with weight 1 for all thetas
+	☐	Generate data set
+
+
+	Findings:
+		 ☐	If given a choice between increasing input size or increasing input features, choose the latter as complexity is O(input_features_size) and in other case complexity is O(input_size ^ 2)
+		 ☐	

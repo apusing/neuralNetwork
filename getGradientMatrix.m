@@ -1,5 +1,6 @@
 function [gradient] = getGradientMatrix(activation_of_layer, weights_of_layer,...
-										 Y, num_layers, m, lambda)
+										 Y, lambda)
+	global m num_layers;
 	delta = {};
 	gradient = {};
 
